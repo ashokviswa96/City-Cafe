@@ -1,0 +1,239 @@
+*{
+  border: 1px solid red;
+}
+.overlay {
+  position:absolute;
+  z-index:12;
+  width:100%;
+  text-align:center;
+}
+.logo{
+  margin-top: 2%;;
+  border:1px dashed white;
+  border-radius: 30px;
+  padding: .5%;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.affix {
+  top:0;
+width: 100%;
+}
+.navbar-default{
+  background-color: rgba(0, 0, 0, 0) !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+  color:white;
+  font-size: 13px;
+  font-weight: bold;
+  display: inline-block;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color: rgba(0, 0, 0, 0) !important;
+  color: green !important;
+}
+
+.services,.menu-item{
+  background-color: #e6e6e6;
+  padding:7%;
+}
+.services{
+  padding-bottom: 2%;
+}
+.head-text{
+  padding:10%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.heading{
+  text-align: center;
+  color:green;
+}
+.about,.menu-card{
+  background-color: white;
+}
+.abt-img{
+  width:100%;
+}
+.abt-sidehead{
+  color:grey;
+  font-weight: bold;
+  padding-top: 2%;
+}
+.food-cards{
+  background-color: white;
+  text-align:center;
+}
+.col-center-block {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    /* margin-left: auto; margin-right: auto; */
+}
+.menu-item{
+  margin-top: 5%;
+}
+.menu-item h4{
+  font-size: 17px;
+}
+.green{
+  color:green;
+  font-style: oblique;
+  font-size: 14px;
+  margin-top: 3%;
+}
+.price{
+  color:green;
+  font-size:20px;
+  font-weight: bold;
+  text-align: center;
+}
+.choices{
+  margin: auto;
+  width: 60%;
+}
+div.col-md-3.food-cards{
+  padding-left:0;
+  padding-right:0;
+}
+.food-types{
+  border:1px solid green;
+  border-radius: 0;
+  color:green;
+  background-color: none;
+  margin: 6px;
+}
+.gallery{
+  padding:7%;
+}
+.nav-pills>li>a{
+  border-radius: 0 !important;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+  background-color: green !important;
+  color:white !important;
+  border-radius: 0 !important;
+}
+.nav-pills>li>a:hover{
+  background-color: green !important;
+  color:white !important;
+  border-radius: 0 !important;
+}
+.gallery-items{
+  padding-top: 3%;
+}
+.gallery-items>.img{
+padding-left: 1px !important;
+padding-right: 1px !important;
+padding-top: 2px !important;
+padding-bottom: 1px !important;
+
+}
+.icon-food{
+  margin:5%;
+  padding: 2%;
+  font-size: 50px;
+}
+.stat-icon{
+  color:green;
+  font-weight: bold;
+  font-size:  50px;
+  margin:5%;
+}
+.img{
+  padding: 0;
+  margin:0;
+}
+.img-gallery{
+  width: 100%;
+}
+.stats{
+  background-color: #f3f3f3;
+  margin:0;
+  padding:7%;
+}
+.stats p,.chefs p,.contact p{
+  padding: 5%;
+}
+
+.stats-text{
+  font-size: 16px;
+  margin:2%;
+  color: grey;
+}
+.stats-num{
+  font-size: 26px;
+  margin:2%;
+}
+.chefs{
+  background-color: #232323;
+  color:white;
+  margin:0;
+  padding:7%;
+}
+.mem-img{
+  width: 60%;
+}
+.feedback{
+  padding:7%;
+  background-color:  #f3f3f3;
+}
+.cust-feed{
+  margin-left:10%;
+  margin-right:10%;
+
+}
+.director-img{
+  border-radius: 100%;
+  width:40%;
+  position: relative;
+}
+.dir-name{
+padding-top:2%;
+margin-left:0;
+}
+.contact{
+  padding:7%;
+}
+.green-btn{
+  background-color: green;
+  color:white;
+  border-radius: 0 !important;
+}
+.green-btn:hover{
+  background-color: #8af285;
+  color:white;
+}
+.footer{
+  background-color: #232323;
+  color: white;
+  padding:5%;
+  padding-bottom:.5%;
+}
+.footer-header{
+  color:green;
+}
+.cont-list{
+  list-style-type: none;
+  margin-left:0 !important;
+  padding-left:0 !important;
+
+}
+.social-icons{
+list-style-type: none;
+margin:auto;
+display: inline-flex;
+padding-top:4%;
+padding-bottom: 2%;
+}
+.social-icons li{
+  padding:10px;
+}
+.social-icons li>i{
+  font-size: 20px;
+  border:1px solid white ;
+  border-radius: 100%;
+  padding:10px;
+}
